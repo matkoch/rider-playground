@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Library.Analysis
 {
-    public class CSharp8
+    public partial class CSharp8
     {
         // FEAT: Index From End Expression
         public T GetPreviousLastElement<T>(T[] array)
