@@ -31,5 +31,18 @@ namespace Library.Analysis
                 from k in numbers
                 select i * j * k;
         }
+
+        private static object M(
+            IDictionary<string, object> dictionary,
+            string key,
+            object defaultValue)
+        {
+            if (dictionary == null)
+                dictionary = new Dictionary<string, object>();
+
+            if (dictionary.TryGetValue(key, out var value))
+                return value;
+            return defaultValue;
+        }
     }
 }
