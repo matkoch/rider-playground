@@ -1,4 +1,3 @@
-using FakeItEasy;
 using Library.Navigation;
 
 namespace Library.Editing
@@ -7,8 +6,13 @@ namespace Library.Editing
     {
         public void Test()
         {
-            IVehicle vehicle = A.Fake<IVehicle>();
+            IVehicle vehicle = null;
             vehicle.Forward(1);
+        }
+
+        private static T CreateInstance<T>()
+        {
+            return default(T);
         }
     }
 }
