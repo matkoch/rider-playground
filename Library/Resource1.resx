@@ -101,4 +101,7 @@
   <data name="Hello" xml:space="preserve">
     <value>Hello</value>
   </data>
+  <data name="GoodBye" xml:space="preserve">
+    <value>GoodBye</value>
+  </data>
 </root>

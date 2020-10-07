@@ -25,11 +25,17 @@ namespace Library.Analysis
         }
         private static IEnumerable<int> Bar(ICollection<int> numbers)
         {
-            return
-                from i in numbers
-                from j in numbers
-                from k in numbers
-                select i * j * k;
+            foreach (int i in numbers)
+            {
+            }
+            foreach (var j in numbers)
+            {
+            }
+            foreach (var k in numbers)
+            {
+            }
+
+            yield break;
         }
 
         private static object M(

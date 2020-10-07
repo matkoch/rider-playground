@@ -14,4 +14,7 @@
   <data name="Hello" xml:space="preserve">
     <value>Hallo</value>
   </data>
+  <data name="GoodBye" xml:space="preserve">
+    <value>Tschuess</value>
+  </data>
 </root>

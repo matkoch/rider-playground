@@ -61,6 +61,15 @@ namespace Library {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GoodBye.
+        /// </summary>
+        internal static string GoodBye {
+            get {
+                return ResourceManager.GetString("GoodBye", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello.
         /// </summary>
         internal static string Hello {

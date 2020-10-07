@@ -42,11 +42,11 @@ namespace Library.Analysis
 
         public void M()
         {
-            var p = _repository.GetPerson("Mads");
-            if (IsValid(p))
+            var person = _repository.GetPerson("Mads");
+            if (IsValid(person))
             {
                 // CS8602: Dereference of a possibly null reference.
-                Console.WriteLine($"Great job {p.FirstName}!");
+                Console.WriteLine($"Great job {person!.FirstName}!");
             }
         }
 
