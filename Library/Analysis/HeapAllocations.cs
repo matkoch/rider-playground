@@ -19,7 +19,7 @@ namespace Library.Analysis
 
             // FEAT: Boxing
             var path = str + '/' + number;
-            E(number);
+            F(number);
         }
 
         private void F(object obj)
