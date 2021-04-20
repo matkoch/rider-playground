@@ -5,7 +5,7 @@ namespace Library.Editing
         public void M()
         {
             // language=REGEXP
-            var a = @"\D";
+            var a = @"\D{1,54}";
 
             // language=HTML
             var b = "<em>emphasized</em>";
