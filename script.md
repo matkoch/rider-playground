@@ -3,7 +3,7 @@
 - Included: DataGrip, WebStorm, IDEA (all JetBrains IDEs)
 - Plugins (PowerShell, Bash, Grazie, Structured Logging)
 
-#First Look & Editing
+# First Look & Editing
 - General shortcuts (shift-shift) (my productivity)
 - Settings
     - Block caret
